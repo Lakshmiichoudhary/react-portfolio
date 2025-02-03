@@ -1,0 +1,29 @@
+.nav_item {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav_item:hover {
+    color: #64FFDA; 
+    transform: scale(1.1); 
+    text-decoration: underline; 
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+Link{
+    text-decoration: none;
+    color: white
+}
+
+.header .nav_item {
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
