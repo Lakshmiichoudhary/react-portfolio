@@ -1,0 +1,32 @@
+.skills-container{
+    padding-left: 20px;
+}
+
+.skills-container .skills-heading {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.skills-left{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills-left .skills{
+    width: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
