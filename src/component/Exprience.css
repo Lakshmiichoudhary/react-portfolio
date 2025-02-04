@@ -1,0 +1,22 @@
+.exp-container{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.exp-container .exp-heading {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.exp-left{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: brown;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -13,11 +13,11 @@ const Header = () => {
       </h3>
       </div>
       <div className='right'>
-        <Link to="/" className='nav_item'>Home</Link>
-        <Link to="/skills" className='nav_item'>Skills</Link>
-        <Link to="/experience" className='nav_item'>Experience</Link>
-        <Link to="/projects" className='nav_item'>Projects</Link>
-        <Link to="/contact" className='nav_item'>Contact</Link>
+        <Link href="/" className='nav_item'>Home</Link>
+        <a href="#skills" className='nav_item'>Skills</a>
+        <a href="#experience" className='nav_item'>Experience</a>
+        <a href="#projects" className='nav_item'>Projects</a>
+        <a href="#contact" className='nav_item'>Contact</a>
       </div>
     </div>
   )
