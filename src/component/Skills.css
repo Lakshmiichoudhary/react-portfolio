@@ -13,16 +13,16 @@
     justify-items: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     margin-top: 50px;
     margin-bottom: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .skills-left .skills{
-    width: 200px;
+    width: 150px;
     background: rgba(255, 255, 255, 0.1);
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
