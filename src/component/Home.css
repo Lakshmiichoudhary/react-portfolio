@@ -2,7 +2,7 @@
     display: flex;
     color: white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 20px;
     margin-bottom: 150px;
     justify-content: space-between;
@@ -23,13 +23,6 @@
   .greeting {
     font-size: 2rem;
     margin-bottom: 10px;
-    animation: fadeIn 2s ease-in-out;
-  }
-  
-  .tagline {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    animation: slideIn 1.5s ease-in-out;
   }
   
   .resume-button {
@@ -40,7 +33,7 @@
     border: 1px solid #64FFDA;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 2px;
+    margin-top: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   
@@ -59,15 +52,18 @@
     border-radius: 15px;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
   }
   
   .typing-effect {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #64FFDA;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
     white-space: wrap;
     overflow: hidden;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
   }
   
   
