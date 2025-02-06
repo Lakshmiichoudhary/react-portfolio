@@ -10,7 +10,7 @@ const Skills = () => {
         </div>
         <div className='skills-left'>
             {SkillsData.map((skill,id) => (
-              <div key={id} className='skills'>
+              <div key={id} className='skills' data-aos="flip-left" data-aos-duration="1000">
                   <div>{skill.icon}</div>
                   <p>{skill.name}</p>
               </div>  

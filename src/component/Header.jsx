@@ -5,7 +5,9 @@ import "./Header.css"
 const Header = () => {
 
   return (
-    <div className='header'>
+    <div className='header'
+    data-aos="fade-down" 
+    data-aos-duration="1000">
       <div className='left nav_item'>
       <h3 className="logo">
         <span>Lakshmi</span>

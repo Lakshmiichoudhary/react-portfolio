@@ -22,11 +22,15 @@ const Home = () => {
   
   return (
     <div className="home-container">
-      <div className="home-content">
+      <div className="home-content"
+        data-aos="fade-right" 
+        data-aos-duration="1000">
         <h3 className="greeting"  ref={typedRef}></h3>
         <button className="resume-button">Download Resume</button>
       </div>
-      <div className="home-right">
+      <div className="home-right"
+      data-aos="fade-left" 
+      data-aos-duration="1000">
       <p className="typing-effect">
       I specialize in building responsive and user-friendly web applications using React.js, Node.js, Express.js, 
       and MongoDB. My experience includes developing full-stack projects, implementing authentication, and optimizing performance. 
