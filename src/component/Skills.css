@@ -9,9 +9,8 @@
 
 .skills-left{
     display: flex;
-    justify-content:space-evenly;
-    justify-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     margin-top: 50px;

@@ -11,7 +11,7 @@ const Header = () => {
       <div className='left nav_item'>
       <h3 className="logo">
         <span>Lakshmi</span>
-        <span style={{ color: "#64FFDA" }}>.Dev</span>
+        <span style={{ color: "#64FFDA" }}>.B</span>
       </h3>
       </div>
       <div className='right'>

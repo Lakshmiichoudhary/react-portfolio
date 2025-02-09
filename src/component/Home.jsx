@@ -19,6 +19,15 @@ const Home = () => {
       typed.destroy()
     }
   },[])
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Lakshmi_Resume.pdf";
+    link.download = "Lakshmi_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   
   return (
     <div className="home-container">
@@ -26,7 +35,7 @@ const Home = () => {
         data-aos="fade-right" 
         data-aos-duration="1000">
         <h3 className="greeting"  ref={typedRef}></h3>
-        <button className="resume-button">Download Resume</button>
+        <button className="resume-button" onClick={handleDownload}>Download Resume</button>
       </div>
       <div className="home-right"
       data-aos="fade-left" 
