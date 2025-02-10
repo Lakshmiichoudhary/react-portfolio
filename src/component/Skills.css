@@ -3,8 +3,9 @@
 }
 
 .skills-container .skills-heading {
-    font-weight: 500;
-    font-size: xx-large;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .skills-left{

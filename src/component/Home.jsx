@@ -9,8 +9,10 @@ const Home = () => {
     const option = {
       strings:["Welcome to my Profile","Hi, I am Lakshmi","A Passionate MERN Stack Developer"],
       typeSpeed:50,
-      backSpeed:50,
-      loop:true
+      backSpeed: 30,
+      startDelay: 0,  
+      loop: true,
+      showCursor: false,
     }
 
     const typed = new Typed(typedRef.current,option)

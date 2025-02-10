@@ -8,7 +8,7 @@ const Projects = () => {
       <h2 className='project-heading'>Projects</h2>
       <div className='project-grid'>
         {projectsData.map((project, index) => (
-          <div key={index} className='project-card' data-aos="flip-up">
+          <div key={index} className='project-card' data-aos="flip-down">
             <img src={project.image} alt={project.name} className='project-image' />
             <h3>{project.name}</h3>
             <p>{project.description}</p>
