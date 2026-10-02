@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Exprience.css"
 import { experienceData } from '../data/ExperienceData'
 
 const Experience = () => {

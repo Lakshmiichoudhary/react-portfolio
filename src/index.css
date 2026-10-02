@@ -1,5 +1,34 @@
-:root {
-  background-color: #0A192F;
-  color: white;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-background: #090d16;
+  --color-background-secondary: #0f172a;
+
+  /* Text & Typography */
+  --color-text: #f8fafc;
+  --color-text-muted: #cbd5e1;
+  --color-text-secondary: #94a3b8;
+
+  /* Accent Colors */
+  --color-primary: #38bdf8; /* Sky Blue */
+  --color-primary-hover: #818cf8; /* Indigo Accent */
+
+  /* UI Surfaces & Borders */
+  --color-surface: #1e293b;
+  --color-border: #334155;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
